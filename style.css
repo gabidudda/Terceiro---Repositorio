@@ -14,3 +14,27 @@ body {
     font-size: 1rem;
     font-family:'Noto Sans';
 }
+
+#contato {
+    background: #000000;
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.formulario{
+    background-color: #FFFFFF;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-weight: bold;
+}
+
+.formulario button {
+    background-color: #007a85;
+    border: none;
+    font-weight: bold;
+}
+
+.form-control{
+    background-color: #2f4858;
+}
