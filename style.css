@@ -12,10 +12,10 @@
 
 body {
     font-size: 1rem;
-    font-family:'Noto Sans';
+    font-family: 'Noto+Sans'
 }
 
-section{
+section {
     padding-bottom: 5rem;
 }
 
@@ -24,12 +24,12 @@ header {
 }
 
 .nav-link {
-    color: var(--laranja-claro);
+    color: var(--Verde-claro);
     font-weight: 600;
 }
 
 .inicio-fundo {
-    background-image: url(img/4965007.jpg);
+    background-image: url(logo.png);
     background-size: cover;
     background-position: right;
     border-radius: 80px;
@@ -47,7 +47,7 @@ header {
 }
 
 .botao-inicio {
-    background-color: var(--laranja-claro);
+    background-color: var(--Verde-claro);
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -56,40 +56,44 @@ header {
 }
 
 
-display-4{
-     text-shadow: -5px -5px var(--cor3) 
-
+.display-4 {
+    text-shadow: -5px 5px var(--Verde-claro);
 }
 
-
-
- #praia{
-     position: relative;
-      padding-top: 5rem;
-       margin-top: 3rem; 
-       background: var(--branco); 
-       background-size: 180px 180px; 
-
+#tropicalia {
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    background: var(--cor2);
+    background-size: 180px 180px; /* Ajuste o tamanho conforme necessário*/
 }
 
-#praia .container{ 
+#tropicalia .container {
     display: flex;
-     align-items: center; 
-     justify-content: center;
-      position: relative; 
-      z-index: 1;
-
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1; /* Garante que o conteúdo fica acima das imagens de backgronde se houverem */
 }
+
+
+
+
+
+
+
+
+
 
 
 #contato {
-    background: #000000;
+    background: var(--cor-principal);
     background-size: cover;
     padding: 4rem 0;
 }
 
 .formulario{
-    background-color: #FFFFFF;
+    background-color: var(--branco);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -97,11 +101,11 @@ display-4{
 }
 
 .formulario button {
-    background-color: #007a85;
+    background-color: var(--cor3);
     border: none;
     font-weight: bold;
 }
 
-.form-control{
-    background-color: #228049;
+.form-control {
+    background-color: var(--cor2);
 }
