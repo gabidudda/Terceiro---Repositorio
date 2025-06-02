@@ -37,34 +37,34 @@
 }
 
 .alto-contraste {
-    background-color: var(--cor-preto);
-    color: var(--cor-branco);
+    background-color: var(#000000);
+    color: var(#FFFFFF);
 }
 
 .alto-contraste header,
 .alto-contraste .formulario {
-    background-color: var(--cor-preto);
-    color: var(--cor-branco);
+    background-color: var(#000000);
+    color: var(#FFFFFF);
 }
 
 .alto-contraste .nav-link {
-    color: var(--cor-secundaria);
+    color: var(#00ab7b);
 }
 
 .alto-contraste .carrossel__titulo {
-    color: var(--cor-branco);
+    color: var(#FFFFFF);
 }
 
 .alto-contraste footer,
 .alto-contraste .botao-inicio,
 .alto-contraste .formulario button {
-    background-color: var(--cor-secundaria);
-    color: var(--cor-preto);
+    background-color: var(#007a85);
+    color: var(#000000);
 }
 
 .alto-contraste .btn-primary {
-    background-color: var(--cor-secundaria);
-    color: var(--cor-branco);
+    background-color: var(00ab7b);
+    color: var(#FFFFFF);
 }
 
 .alto-contraste #escola {
@@ -72,5 +72,5 @@
 }
 
 .alto-contraste #galeria {
-    background-color: var(--cor-preto);
+    background-color: var(#000000);
 }
